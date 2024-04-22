@@ -59,7 +59,7 @@ class PlainTextParser(BaseParser):
 
 
 class LinkUploadView(APIView):
-    parser_classes = (MultiPartParser,)
+    parser_classes  =  (MultiPartParser,)
 
     def post(self, request, filename, format=None):
 
